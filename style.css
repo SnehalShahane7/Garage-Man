@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ .swiper {
+     margin: 12px 24px;
+     width: 100%;  
+     } 
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img { 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 62vh;
+  } 
+  .intro {
+    padding: 4.8rem 6.4rem 4.8rem;
+    margin-top: 1.2rem;
+  }
+  
+  .secondary-heading {
+    font-size: 1.8rem;
+    color: #cf711f;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+  }
+  
+  .heading-description {
+    font-size: 4.4rem;
+    font-weight: 300;
+    margin-bottom: 3.2rem;
+  }
+  
+  .service-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+    padding: 0 2.4rem;
+  }
+  
+  .service-card {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .intro-head {
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+  
+  .head-intro {
+    font-size: 3.2rem;
+  }
+  
+  .car-ico {
+    width: 10rem;
+    height: 10rem;
+    color: #f28121;
+    --ionicon-stroke-width: 16px;
+  }
+  
+  .card-icon {
+    text-align: center;
+  }
+  
+  .step {
+    padding: 2.4rem 9.6rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+  }
+  .step-icon {
+    display: inline-block;
+    width:  32px;
+    height: 32px;
+    color: #f28121;
+    margin-bottom: 1.6rem;
+  }
+  .row{
+    justify-content: space-evenly;
+    padding: 0px;
+
+  }
+  .arrow {
+    margin: 0 auto;
+    font-size: 2.4rem;
+  }
+  .footer{
+  padding: 2.4rem 16rem;
+  border-top: 1px solid #ddd;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1.2rem;
+  color: #aaa;
+}
+
+.social-icon:hover {
+  color: #ff0000;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.5rem;
+  color: #808080;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: black;
+}
+
+  
+  
+  
+  
+  
+  
